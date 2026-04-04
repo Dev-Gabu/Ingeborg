@@ -86,19 +86,43 @@ elif pagina == "Fichas":
     
     with col1:
         try:
-            st.image(c["Foto"], caption=char_sel)
+            st.image(c["Foto"], use_container_width=True)
         except:
             st.error("Foto não encontrada")
             
     with col2:
+        st.subheader(char_sel)
         st.write(f"**Esquadrão:** {c['Esquadrão']}")
         st.write(f"**Patente:** {c['Patente']}")
         
+        # --- NOVA TABELA DE ATRIBUTOS ---
+        st.markdown("### Atributos Base")
+        if "Atributos" in c:
+            # Transformamos o dicionário em uma lista de dicionários para formatar a tabela
+            attrs = c["Atributos"]
+            
+            # Exibição em colunas para um visual "estilo RPG"
+            metrica1, metrica2, metrica3 = st.columns(3)
+            metrica4, metrica5, metrica6 = st.columns(3)
+            
+            metrica1.metric("FOR", attrs["FOR"])
+            metrica2.metric("RES", attrs["RES"])
+            metrica3.metric("INT", attrs["INT"])
+            metrica4.metric("DES", attrs["DES"])
+            metrica5.metric("PER", attrs["PER"])
+            metrica6.metric("COM", attrs["COM"])
+            
+            # Se preferir uma tabela clássica, descomente a linha abaixo:
+            # st.table([attrs]) 
+        else:
+            st.warning("Atributos não cadastrados para este personagem em lists.py")
+
+    st.divider()
     st.subheader("Dragões do Personagem")
     d_cols = st.columns(3)
     for i, d in enumerate(c["Dragões"]):
         with d_cols[i]:
             try:
-                st.image(d["Imagem"], caption=d["Nome"])
+                st.image(d["Imagem"], caption=d["Nome"], width=150)
             except:
-                st.write(d["Nome"])
+                st.write(f"{d['Nome']}")

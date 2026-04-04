@@ -64,7 +64,6 @@ def on_consulta_dragao():
         detalhes_nome_label.config(text="Dragão não encontrado")
         detalhes_info_label.config(text="")
 
-
 def fazer_teste():
     progresso["value"] = 10
     janela.update_idletasks()

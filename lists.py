@@ -360,6 +360,7 @@ detalhes_personagens = {
         "Esquadrão": "Garras Negras",
         "Patente": "Recruta Draconico",
         "Foto": "./pp/Bjorn Ironskin.jpeg",  # Substitua pelo caminho da sua imagem
+        "Atributos": {"FOR": 4, "RES": 10, "INT": 2, "DES": 2, "PER": 3, "COM": 10},
         "Dragões": [
             {"Nome": "Selachian Draconis", "Imagem": "./img/Selachian Draconis.png"},  # Substitua pelos caminhos das suas imagens
             {"Nome": "Não domado", "Imagem": "./img/None.png"},
@@ -370,6 +371,7 @@ detalhes_personagens = {
         "Esquadrão": "Garras Negras",
         "Patente": "Recruta Draconico",
         "Foto": "./pp/Caesin Lagherta.jpeg",  # Substitua pelo caminho da sua imagem
+        "Atributos": {"FOR": 10, "RES": 10, "INT": 2, "DES": 2, "PER": 2, "COM": 4},
         "Dragões": [
             {"Nome": "Carapax Claw", "Imagem": "./img/Carapax Claw.png"},  # Substitua pelos caminhos das suas imagens
             {"Nome": "Não domado", "Imagem": "./img/None.png"},
@@ -380,6 +382,7 @@ detalhes_personagens = {
         "Esquadrão": "Garras Negras",
         "Patente": "Recruta Draconico",
         "Foto": "./pp/Floki Tyrson.jpeg",  # Substitua pelo caminho da sua imagem
+         "Atributos": {"FOR": 7, "RES": 4, "INT": 3, "DES": 7, "PER": 6, "COM": 4},
         "Dragões": [
             {"Nome": "Nimbus Draconis", "Imagem": "./img/Nimbus Draconis.png"},  # Substitua pelos caminhos das suas imagens
             {"Nome": "Não domado", "Imagem": "./img/None.png"},
@@ -390,6 +393,7 @@ detalhes_personagens = {
         "Esquadrão": "Presas Sangrentas",
         "Patente": "Recruta Draconico",
         "Foto": "./pp/Freya Ironskin.jpeg",  # Substitua pelo caminho da sua imagem
+         "Atributos": {"FOR": 2, "RES": 2, "INT": 3, "DES": 10, "PER": 10, "COM": 3},
         "Dragões": [
             {"Nome": "Venenatus Scorpius", "Imagem": "./img/Venenatus Scorpius.png"},  # Substitua pelos caminhos das suas imagens
             {"Nome": "Não domado", "Imagem": "./img/None.png"},
@@ -400,6 +404,7 @@ detalhes_personagens = {
         "Esquadrão": "Presas Sangrentas",
         "Patente": "Recruta Draconico",
         "Foto": "./pp/Frigga Thorstfallen.jpeg",  # Substitua pelo caminho da sua imagem
+        "Atributos": {"FOR": 5, "RES": 5, "INT": 5, "DES": 5, "PER": 5, "COM": 5},
         "Dragões": [
             {"Nome": "Umbra Noctis", "Imagem": "./img/Umbra Noctis.png"},  # Substitua pelos caminhos das suas imagens
             {"Nome": "Não domado", "Imagem": "./img/None.png"},
@@ -410,6 +415,7 @@ detalhes_personagens = {
         "Esquadrão": "Presas Sangrentas",
         "Patente": "Recruta Draconico",
         "Foto": "./pp/Hella Falkyr.jpeg",  # Substitua pelo caminho da sua imagem
+        "Atributos": {"FOR": 3, "RES": 4, "INT": 7, "DES": 7, "PER": 6, "COM": 3},
         "Dragões": [
             {"Nome": "Luminaris Drakon", "Imagem": "./img/Luminaris Drakon.png"},  # Substitua pelos caminhos das suas imagens
             {"Nome": "Não domado", "Imagem": "./img/None.png"},
@@ -420,6 +426,7 @@ detalhes_personagens = {
         "Esquadrão": "Garras Negras",
         "Patente": "Recruta Draconico",
         "Foto": "./pp/Hervor Eowyn.jpeg",  # Substitua pelo caminho da sua imagem
+         "Atributos": {"FOR": 6, "RES": 6, "INT": 4, "DES": 4, "PER": 6, "COM": 4},
         "Dragões": [
             {"Nome": "Arboreus Draconis", "Imagem": "./img/Arboreus Draconis.png"},  # Substitua pelos caminhos das suas imagens
             {"Nome": "Não domado", "Imagem": "./img/None.png"},
@@ -430,6 +437,7 @@ detalhes_personagens = {
         "Esquadrão": "Presas Sangrentas",
         "Patente": "Recruta Draconico",
         "Foto": "./pp/Lenora Spiritwind.jpeg",  # Substitua pelo caminho da sua imagem
+         "Atributos": {"FOR": 7, "RES": 5, "INT": 4, "DES": 6, "PER": 5, "COM": 3},
         "Dragões": [
             {"Nome": "Chelonia Draconis", "Imagem": "./img/Chelonia Draconis.png"},  # Substitua pelos caminhos das suas imagens
             {"Nome": "Não domado", "Imagem": "./img/None.png"},
@@ -440,6 +448,7 @@ detalhes_personagens = {
         "Esquadrão": "Asas Escarlates",
         "Patente": "Recruta Draconico",
         "Foto": "./pp/Ragnar Haraldsen.jpeg",  # Substitua pelo caminho da sua imagem
+         "Atributos": {"FOR": 8, "RES": 5, "INT": 6, "DES": 4, "PER": 3, "COM": 4},
         "Dragões": [
             {"Nome": "Luminaris Drakon", "Imagem": "./img/Luminaris Drakon.png"},  # Substitua pelos caminhos das suas imagens
             {"Nome": "Não domado", "Imagem": "./img/None.png"},
@@ -450,6 +459,7 @@ detalhes_personagens = {
         "Esquadrão": "Presas Sangrentas",
         "Patente": "Recruta Draconico",
         "Foto": "./pp/Regveig Freyor.jpeg",  # Substitua pelo caminho da sua imagem
+         "Atributos": {"FOR": 2, "RES": 2, "INT": 3, "DES": 8, "PER": 6, "COM": 8},
         "Dragões": [
             {"Nome": "Luminaris Drakon", "Imagem": "./img/Luminaris Drakon.png"},  # Substitua pelos caminhos das suas imagens
             {"Nome": "Não domado", "Imagem": "./img/None.png"},
@@ -460,6 +470,7 @@ detalhes_personagens = {
         "Esquadrão": "Garras Negras",
         "Patente": "Recruta Draconico",
         "Foto": "./pp/Sienna D'Arcy.jpeg",  # Substitua pelo caminho da sua imagem
+        "Atributos": {"FOR": 5, "RES": 5, "INT": 5, "DES": 5, "PER": 5, "COM": 5},
         "Dragões": [
             {"Nome": "Felinex Draconis", "Imagem": "./img/Felinex Draconis.png"},  # Substitua pelos caminhos das suas imagens
             {"Nome": "Não domado", "Imagem": "./img/None.png"},
@@ -470,6 +481,7 @@ detalhes_personagens = {
         "Esquadrão": "Asas Escarlates",
         "Patente": "Recruta Draconico",
         "Foto": "./pp/Sigrum Eiriksen.jpeg",  # Substitua pelo caminho da sua imagem
+         "Atributos": {"FOR": 5, "RES": 6, "INT": 5, "DES": 5, "PER": 5, "COM": 6},
         "Dragões": [
             {"Nome": "Pachydrakon", "Imagem": "./img/Pachydrakon.png"},  # Substitua pelos caminhos das suas imagens
             {"Nome": "Não domado", "Imagem": "./img/None.png"},
@@ -480,6 +492,7 @@ detalhes_personagens = {
         "Esquadrão": "Asas Escarlates",
         "Patente": "Recruta Draconico",
         "Foto": "./pp/Kanashi Nissib.jpeg",  # Substitua pelo caminho da sua imagem
+         "Atributos": {"FOR": 5, "RES": 5, "INT": 5, "DES": 5, "PER": 5, "COM": 5},
         "Dragões": [
             {"Nome": "Não domado", "Imagem": "./img/None.png"},  # Substitua pelos caminhos das suas imagens
             {"Nome": "Não domado", "Imagem": "./img/None.png"},
