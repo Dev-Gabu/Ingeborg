@@ -95,27 +95,26 @@ elif pagina == "Fichas":
         st.write(f"**Esquadrão:** {c['Esquadrão']}")
         st.write(f"**Patente:** {c['Patente']}")
         
-        # --- NOVA TABELA DE ATRIBUTOS ---
-        st.markdown("### Atributos Base")
-        if "Atributos" in c:
-            # Transformamos o dicionário em uma lista de dicionários para formatar a tabela
-            attrs = c['Atributos']
-            
-            # Exibição em colunas para um visual "estilo RPG"
-            metrica1, metrica2, metrica3 = st.columns(3)
-            metrica4, metrica5, metrica6 = st.columns(3)
-            
-            metrica1.metric("FOR", attrs["FOR"])
-            metrica2.metric("RES", attrs["RES"])
-            metrica3.metric("INT", attrs["INT"])
-            metrica4.metric("DES", attrs["DES"])
-            metrica5.metric("PER", attrs["PER"])
-            metrica6.metric("COM", attrs["COM"])
-            
-            # Se preferir uma tabela clássica, descomente a linha abaixo:
-            # st.table([attrs]) 
-        else:
-            st.warning("Atributos não cadastrados para este personagem em lists.py")
+    st.markdown("### 📊 Atributos Base")
+        
+    # Usando .get() para evitar erros e debugando as chaves
+    attrs = c.get("Atributos")
+    
+    if attrs:
+        m1, m2, m3 = st.columns(3)
+        m4, m5, m6 = st.columns(3)
+        
+        # Garantindo que as chaves existam dentro de 'Atributos'
+        m1.metric("FOR", attrs.get("FOR", 0))
+        m2.metric("RES", attrs.get("RES", 0))
+        m3.metric("INT", attrs.get("INT", 0))
+        m4.metric("DES", attrs.get("DES", 0))
+        m5.metric("PER", attrs.get("PER", 0))
+        m6.metric("COM", attrs.get("COM", 0))
+    else:
+        # Debug: Isso vai mostrar o que o Python REALMENTE está vendo dentro do dicionário
+        st.error(f"Erro: Chave 'Atributos' não encontrada para {char_sel}.")
+        st.write("Chaves disponíveis neste personagem:", list(c.keys()))
 
     st.divider()
     st.subheader("Dragões do Personagem")

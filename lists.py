@@ -382,7 +382,7 @@ detalhes_personagens = {
         "Esquadrão": "Garras Negras",
         "Patente": "Recruta Draconico",
         "Foto": "./pp/Floki Tyrson.jpeg",  # Substitua pelo caminho da sua imagem
-         "Atributos": {"FOR": 7, "RES": 4, "INT": 3, "DES": 7, "PER": 6, "COM": 4},
+        "Atributos": {"FOR": 7, "RES": 4, "INT": 3, "DES": 7, "PER": 6, "COM": 4},
         "Dragões": [
             {"Nome": "Nimbus Draconis", "Imagem": "./img/Nimbus Draconis.png"},  # Substitua pelos caminhos das suas imagens
             {"Nome": "Não domado", "Imagem": "./img/None.png"},
