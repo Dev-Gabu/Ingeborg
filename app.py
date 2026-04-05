@@ -13,16 +13,20 @@ pagina = st.sidebar.radio("Ir para:", ["Teste de Habilidade", "Gerador de Encont
 # --- PÁGINA: TESTE DE HABILIDADE ---
 if pagina == "Teste de Habilidade":
     st.header("🎲 Teste de Habilidade")
+
+    char_sel = st.selectbox("Selecione o Personagem", list(detalhes_personagens.keys()))
+    c = detalhes_personagens[char_sel]
+    attrs = c.get("Atributos")
     
     col1, col2 = st.columns(2)
     with col1:
-        forca = st.number_input("Força", value=0)
-        resistencia = st.number_input("Resistência", value=0)
-        destreza = st.number_input("Destreza", value=0)
+        forca = st.number_input("Força", value = attrs.get("FOR", 0))
+        resistencia = st.number_input("Resistência", value= attrs.get("RES", 0))
+        destreza = st.number_input("Destreza", value= attrs.get("DES", 0))
     with col2:
-        intel = st.number_input("Inteligência", value=0)
-        percepcao = st.number_input("Percepção", value=0)
-        comando = st.number_input("Comando", value=0)
+        intel = st.number_input("Inteligência", value=attrs.get("INT", 0))
+        percepcao = st.number_input("Percepção", value=attrs.get("PER", 0))
+        comando = st.number_input("Comando", value=attrs.get("COM", 0))
 
     st.divider()
     
