@@ -99,7 +99,7 @@ elif pagina == "Fichas":
         st.markdown("### Atributos Base")
         if "Atributos" in c:
             # Transformamos o dicionário em uma lista de dicionários para formatar a tabela
-            attrs = c["Atributos"]
+            attrs = c['Atributos']
             
             # Exibição em colunas para um visual "estilo RPG"
             metrica1, metrica2, metrica3 = st.columns(3)
