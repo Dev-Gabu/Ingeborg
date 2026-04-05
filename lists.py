@@ -470,7 +470,7 @@ detalhes_personagens = {
         "Esquadrão": "Garras Negras",
         "Patente": "Recruta Draconico",
         "Foto": "./pp/Sienna D'Arcy.jpeg",  # Substitua pelo caminho da sua imagem
-        "Atributos": {"FOR": 5, "RES": 5, "INT": 5, "DES": 5, "PER": 5, "COM": 5},
+        "Atributos": {"FOR": 4, "RES": 6, "INT": 8, "DES": 5, "PER": 6, "COM": 4},
         "Dragões": [
             {"Nome": "Felinex Draconis", "Imagem": "./img/Felinex Draconis.png"},  # Substitua pelos caminhos das suas imagens
             {"Nome": "Não domado", "Imagem": "./img/None.png"},
